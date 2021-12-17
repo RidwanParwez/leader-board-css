@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+/* common style */
+body {
+  background: #f3f1ff;
+  font-family: Poppins;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container {
+  width: 870px;
+  background: #ffffff;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+/* nav-styles */
+.nav {
+  width: 1440px;
+  height: 94px;
+  background: #562eff;
+}
+.nav-items {
+  display: flex;
+  justify-content: space-around;
+}
+.left-menu {
+  align-self: center;
+}
+.nav-items li {
+  list-style: none;
+  display: inline;
+  margin-left: 10px;
+}
+.left-menu {
+  display: flex;
+  align-items: center;
+}
+.nav-items li a {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+ul li img {
+  width: 40.42px;
+  height: 51px;
+}
+/* Top-player-Style */
+.section-title {
+  color: #562eff;
+  margin-top: 3px;
+}
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-bottom: 30px;
+}
+.player {
+  display: flex;
+  align-items: center;
+}
+.player img {
+  width: 56px;
+  height: 56px;
+}
+.player-name {
+  margin-left: 16px;
+  font-size: 18px;
+  line-height: 27px;
+}
+hr {
+  border: 1px solid #d1d1d1;
+}
+/* Top-Blog Styles */
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 28px;
+  grid-column-gap: 46px;
+}
+.blog {
+  display: flex;
+}
+.thambnail img {
+  width: 177px;
+  height: 117px;
+}
+.blog-info {
+  margin-left: 18px;
+}
+.blog-author {
+  color: #9f9f9f;
+}
+.blog-author a {
+  text-decoration: none;
+  margin-left: 3px;
+}
+/* Latest Course styles */
+.courses {
+  display: flex;
+}
+.course-banner img {
+  width: 266px;
+  height: 141px;
+}
+.course-detail {
+  display: flex;
+}
+.course-duration {
+  color: #f82a42;
+  font-size: 14.6913px;
+  margin-left: 10px;
+  background-color: #ee45598e;
+  border-radius: 4px;
+  text-align: center;
+}
+.fa-star.filled {
+  color: #ffc014;
+}
+.fa-star.empty {
+  color: #c9c5bc;
+}
